@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="hanoi.css">
+  <script defer src="hanoi.js"></script>
+  <title>Tower of Hanoi</title>
+</head>
+
+<body>
+  <main>
+    <div class="description">
+      <h1 class='description__title'>The tower of Hanoi</h1>
+      <h2 class='description__subtitle description__subtitle--instructions'>Instructions:</h2>
+      <p class='description__instructions'> Move all the disks from the left tower to the right tower to win. You can
+        move a disk to another tower by clicking on it, then on the tower you want it to be moved.</p>
+      <h2 class='description__subtitle description__subtitle--constraint'>Constraint : </h2>
+      <p>You can only move a disk on top of a bigger one or to an empty tower.</p>
+      <p>I wish you good luck !</p>
+    </div>
+
+    <div class="game">
+      <ul class="game__tower">
+        <li class="disk one" data-weight='1'></li>
+        <li class="disk two" data-weight='2'></li>
+        <li class="disk tree" data-weight='3'></li>
+        <li class="disk four" data-weight='4'></li>
+        <li class="disk five" data-weight='5'></li>
+        <li class="disk six" data-weight='6'></li>
+      </ul>
+
+      <ul class="game__tower">
+
+      </ul>
+      <ul class="game__tower" id="finish">
+      </ul>
+    </div>
+    <p class="end-message"> Congratulations, You win !</p>
+    <p class="end-message"> Refresh the page to restart the game.</p>
+
+  </main>
+</body>
+
+</html>
