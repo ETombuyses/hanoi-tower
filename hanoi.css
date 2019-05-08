@@ -46,7 +46,8 @@ main {
   align-items: center;
   flex-wrap: wrap;
   width: 100vw;
-  height: 300px;
+  min-height: 300px;
+  padding: 30px;
 }
 
 .game__tower {
@@ -56,6 +57,7 @@ main {
   padding: 0;
   width: 200px;
   height: 150px;
+  margin-top: 30px;
   border-bottom: 15px solid white;
   position: relative;
   justify-content: flex-end;
